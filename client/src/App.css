@@ -1,0 +1,23 @@
+.remove-btn{
+    margin-right: 0.5rem;
+}
+
+/* This is the css we apply when we add an item */
+.fade-enter{
+    opacity: 0.01; /* mchj dahra bél gdé */
+}
+
+.fade-enter-active{
+    opacity: 1; /* fully visible */
+    transition: opacity 1000ms ease-in;
+}
+
+/*  */
+.fade-exit{
+    opacity: 1;
+}
+
+.fade-exit-active{
+    opacity: 0.01; /* mchj dahra bél gdé */
+    transition: opacity 1000ms ease-in;   
+}
